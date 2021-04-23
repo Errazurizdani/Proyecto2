@@ -1,62 +1,55 @@
-body {
-    height: 100%;
-    display: inline;
-}
-
-html {
-    height: 100%;
-    font-family: sans-serif;
-    font-size: x-large;
-}
-
-.barraizquierda {
-    background-color:rgb(50,50,50);
-    color: white;
-    font-size: 10px;
-    width: 20%;
-    height: 100%;
+.barraizquierda { 
+    background-color:rgb(14, 56, 134);
+    color: rgb(255, 255, 255);
     float: left;
     padding-left:20px;
-    text-shadow: rgb(50,50,50);
+    border-style: solid;
+    height: 1160px;
+    width: 300px;
+}
+.container{
+    margin: auto;
+    background-color:rgb(14, 56, 134);
+    height:700px;
+    width:1400px;
+    border-style: solid;
+    color: rgb(255, 255, 255);
 }
 
-.div2 {
-    display: block;
-    margin-top: -55px;
-    height: 25%;
-    font-size: 15px;
-    text-align: left;
-    background-color:rgb(50, 245, 235);
+.header{
+    margin-left: 100px;
 }
 
-.div3 {
-    display: block;
-    margin-top: -25px;
-    height: 25%;
-    font-size: 15px;
-    text-align: left;
-    background-color:yellow;
+.inicio{
+    width: auto;
+    font-size:20px;
+    margin-top:30px;
+    background-color:rgb(14, 56, 134);
 }
 
-.div4 {
-    display: block;
-    margin-top: -25px;
-    height: 25%;
-    font-size: 15px;
-    text-align: left;
-    background-color:orange;
+.regioncomuna {
+    width: 100px;
+    font-size:20px;
+    margin-left: 250px;
+    margin-top: 80px;
+    border-radius: 4px;
 }
 
-.div5 {
-    display: block;
-    margin-top: -25px;
-    height: 237px;
-    font-size: 15px;
-    text-align: left;
-    background-color: red;
+.enviar {
+    font-size:20px;
+    margin-top: 120px;
+    margin-left: 350px;
+}
+
+.datos{
+    margin-left: 10px;
+    margin-top: 60px;
+}
+
+.rellenar {
+    width: 350px;
+    padding: 5px;
 }
 
 
-.texto {
-    color: white;
-}
+
